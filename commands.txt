@@ -19,3 +19,10 @@ VALUES(val1, val2, ...)
 ### constraints----------------------------------------------------------------------
     1. NOT NULL(st_id) 2.UNIQUE(st_id, phn_no) 3.DEFAULT(dept for cse std) 4.CHECK(condn. age>=18)
 
+### select -------------------------------------------------------------------------------
+SELECT id as std_id, name as "std name",age from personal;
+SELECT id, name, age from personal;
+
+### WHERE ---------------------------------------------------------------------------
+SELECT * FROM personal
+where age != 23;
