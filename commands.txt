@@ -1,0 +1,21 @@
+### Creating table:----------------------------------------------------------------------
+CREATE TABLE table_name(
+    colummn1 datatype,
+    colummn2 datatype,
+    colummn3 datatype,
+    ...
+)
+### DATA & TIME:=>----------------------------------------------------------------------
+    1. DATE 'YY-MM-DD'
+     2. DATETIME 'YY-MM-DD hh:mm:ss'
+      3. TIMESTAMP
+       4. TIME
+        5. YEAR
+
+### inserting data:----------------------------------------------------------------------
+INSERT INTO table_name(col1 ,col2, ...)
+VALUES(val1, val2, ...)
+
+### constraints----------------------------------------------------------------------
+    1. NOT NULL(st_id) 2.UNIQUE(st_id, phn_no) 3.DEFAULT(dept for cse std) 4.CHECK(condn. age>=18)
+
